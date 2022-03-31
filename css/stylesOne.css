@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.general {
+  background-image: url("../img/netflixBack.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+body {
+  min-width: 100em;
+}
+.general {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(20, 5%);
+  grid-template-rows: 5rem 48rem 16rem;
+  grid-template-areas:
+    "aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader aheader"
+    "void1 void1 void1 void1 void1 void1 void1 contentN contentN contentN contentN contentN contentN void2 void2 void2 void2 void2 void2 void2"
+    "afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter afooter";
+}
+.headerNetflix {
+  grid-area: aheader;
+  background: rgba(0, 0, 0, 0.6);
+}
+.headerNetflix img {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 1.45rem;
+  margin-left: 3.6rem;
+}
+.void1Netflix {
+  grid-area: void1;
+  background: rgba(0, 0, 0, 0.6);
+}
+.contentNetflix {
+  grid-area: contentN;
+  background: rgba(0, 0, 0, 0.6);
+}
+.contentN {
+  display: block;
+  margin: auto;
+}
+.contentNr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentN {
+  height: 41.5rem;
+  width: 28rem;
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, 0.75);
+}
+.contentN h2 {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  padding-top: 3.45rem;
+  margin-left: 4.18rem;
+}
+.email input::placeholder {
+  color: #8c8c8c;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+.email input {
+  border-radius: 0.23rem;
+  border: 0;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 3.12rem;
+  width: 19.7rem;
+  margin-top: 1.8rem;
+  margin-left: 4.18rem;
+  background: #333;
+  outline: 0;
+  padding-left: 1.28rem;
+}
+.password input::placeholder {
+  color: #8c8c8c;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+.password input {
+  border-radius: 0.23rem;
+  border: 0;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 3.12rem;
+  width: 19.7rem;
+  margin-top: 1rem;
+  margin-left: 4.18rem;
+  background: #333;
+  outline: 0;
+  padding-left: 1.28rem;
+}
+.start button {
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border-width: 0.0001px;
+  border-color: #e50914;
+  cursor: pointer;
+  height: 3.12rem;
+  width: 19.7rem;
+  margin-top: 2.48rem;
+  margin-left: 4.18rem;
+  background: #e50914;
+}
+.rememberN {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4.18rem;
+  margin-top: 0.8rem;
+  color: #b3b3b3;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+input[type="checkbox"] {
+  height: 14px;
+  width: 14px;
+}
+.remember {
+  margin-right: 6.9rem;
+}
+.help a,
+.help a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #b3b3b3;
+  text-decoration: none;
+  list-style: none;
+}
+.logingF {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4.18rem;
+  margin-top: 2.68rem;
+  color: #b3b3b3;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.logoF img {
+  height: 20px;
+  width: 20px;
+}
+.logoF {
+  margin-right: 0.65rem;
+}
+.logFace a,
+.logFace a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #737373;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.firstN {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4.18rem;
+  margin-top: 0.9rem;
+}
+.textN h3 {
+  color: #737373;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.textN {
+  margin-right: 0.3rem;
+}
+.subscribe a,
+.subscribe a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.ftext1 h4 {
+  margin-left: 4.18rem;
+  margin-top: 0.75rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #8c8c8c;
+  font-weight: 500;
+}
+.ftext2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4.18rem;
+}
+.textf h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #8c8c8c;
+  font-weight: 500;
+}
+.textf {
+  margin-right: 0.3rem;
+}
+.morei a {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0071eb;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.void2Netflix {
+  grid-area: void2;
+  background: rgba(0, 0, 0, 0.6);
+}
+.footerNetflix {
+  grid-area: afooter;
+  background: rgba(0, 0, 0, 0.9);
+}
+.lineone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28.2rem;
+  margin-top: 1.45rem;
+}
+.question h3 {
+  color: #757575;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.question {
+  margin-right: 0.3rem;
+}
+.tel a {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.linetwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28.2rem;
+  margin-top: 1.75rem;
+}
+.lpf a,
+.lpf a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lpf {
+  margin-right: 8.05rem;
+}
+.lca a,
+.lca a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lca {
+  margin-right: 9.5rem;
+}
+.ltu a,
+.ltu a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.ltu {
+  margin-right: 9.5rem;
+}
+.lpr a,
+.lpr a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.linethree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28.2rem;
+  margin-top: 0.85rem;
+}
+.lpc a,
+.lpc a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lpc {
+  margin-right: 7.1rem;
+}
+.lic a,
+.lic a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.idiom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28.2rem;
+  margin-top: 2.3rem;
+}
+select {
+  padding-left: 10px;
+  width: 128px;
+  height: 45px;
+  color: #757575;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

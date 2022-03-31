@@ -1,0 +1,871 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 100%;
+  min-width: auto;
+}
+.partOne {
+  background-image: url("../img/mainBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 115vh;
+  width: 100%;
+  height: 100vh;
+}
+.partOne1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: 100vw 115vh;
+  width: 100%;
+  height: 100vh;
+}
+.mainElement {
+  width: 100%;
+  height: 150vh;
+}
+.headerNetflix {
+  background: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 7.35vh;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+.headerNetflix img {
+  width: 4.8vw;
+  height: 2.8vh;
+  margin-top: 2.29vh;
+  margin-left: 3.8rem;
+  cursor: pointer;
+}
+.headerNetflix .li1 a,
+.headerNetflix a:visited {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13.6px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2.8vh;
+  margin-left: 4.8vh;
+}
+.headerNetflix .li2 a,
+.headerNetflix a:visited {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13.6px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2.8vh;
+  margin-left: 2.5vh;
+}
+.headerNetflix .li3 a,
+.headerNetflix a:visited {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13.6px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2.8vh;
+  margin-left: 2.5vh;
+}
+.headerNetflix .li4 a,
+.headerNetflix a:visited {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13.6px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2.8vh;
+  margin-left: 2.35vh;
+}
+.headerNetflix .li5 a,
+.headerNetflix a:visited {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13.6px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2.8vh;
+  margin-left: 2.8vh;
+}
+.headerNetflix .li6 a,
+.headerNetflix a:visited {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13.6px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2.8vh;
+  margin-left: 2.5vh;
+}
+.searchIcon img {
+  display: inline-block;
+  width: 27px;
+  height: 25px;
+  margin-top: 2.5vh;
+  margin-left: 104.3vh;
+  cursor: pointer;
+}
+.notiIcon img {
+  display: inline-block;
+  width: 27px;
+  height: 22px;
+  margin-top: 2.6vh;
+  margin-left: 2.6vh;
+  cursor: pointer;
+}
+.perfilIcon img {
+  display: inline-block;
+  width: 32px;
+  height: 29px;
+  margin-top: 2.4vh;
+  margin-left: 2.6vh;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.arrowIcon img {
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  margin-top: 3.5vh;
+  margin-left: 1.25vh;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.flashImage img {
+  width: 35.5vw;
+  height: 32.5vh;
+  margin-top: 9.1vh;
+  margin-left: 6.3vh;
+  cursor: pointer;
+}
+.titleFlash {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  width: 35vw;
+  font-size: 1.55vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin-left: 6.5vh;
+  margin-top: 2.2vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.synopsisFlash {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  width: 35vw;
+  font-size: 1.41vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin-left: 6.5vh;
+  margin-top: 2.5vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.bottonsN {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+.start button {
+  border-radius: 4px;
+  color: black;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 700;
+  outline: none;
+  border-width: 0.0001px;
+  border-color: white;
+  cursor: pointer;
+  height: 6.3vh;
+  width: 12vw;
+  margin-top: 3.7vh;
+  margin-left: 3.3vw;
+  background: white;
+  justify-content: space-between;
+}
+.start button:hover {
+  border-radius: 4px;
+  color: black;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 700;
+  outline: none;
+  border-width: 0.0001px;
+  border-color: white;
+  cursor: pointer;
+  height: 6.3vh;
+  width: 12vw;
+  margin-top: 3.7vh;
+  margin-left: 3.3vw;
+  background: rgba(255, 255, 255, 0.75);
+  justify-content: space-between;
+}
+.moreInfo button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28.2rem;
+  margin-top: 0.85rem;
+}
+.moreInfo button {
+  border-radius: 4px;
+  color: white;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 700;
+  outline: none;
+  border-width: 0.0001px;
+  border-color: rgba(109, 109, 110, 0.7);
+  cursor: pointer;
+  height: 6.3vh;
+  width: 15.1vw;
+  margin-top: 3.7vh;
+  margin-left: 0.65vw;
+  background: rgba(109, 109, 110, 0.7);
+  padding-left: 4.3vh;
+}
+.moreInfo img {
+  display: inline-block;
+  height: 3vh;
+  width: 2vw;
+  padding-right: 1vh;
+}
+.moreInfo p {
+  display: inline-block;
+}
+.moreInfo button:hover {
+  border-radius: 4px;
+  color: white;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 700;
+  outline: none;
+  border-width: 0.0001px;
+  border-color: rgba(109, 109, 110, 0.4);
+  cursor: pointer;
+  height: 6.3vh;
+  width: 15.1vw;
+  margin-top: 3.7vh;
+  margin-left: 0.65vw;
+  background: rgba(109, 109, 110, 0.4);
+}
+.repetIcon img {
+  width: 3.1vw;
+  height: 6.6vh;
+  margin-top: 6.05vh;
+  margin-left: 111.5vh;
+  cursor: pointer;
+}
+.tvIcon img {
+  width: 8.28vw;
+  height: 6.19vh;
+  margin-top: 5.8vh;
+  margin-left: 1.6vh;
+  cursor: pointer;
+}
+.seriesUS a,
+.seriesUS a:hover {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  width: 35vw;
+  font-size: 1.36vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin-left: 6.4vh;
+  margin-top: 12vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  list-style: none;
+}
+.c1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sUS1 img {
+  display: inline-block;
+  width: 15.4vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 6vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sUS2 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sUS3 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sUS4 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sUS5 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sUS6 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.tendencias a,
+.tendencias a:hover {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  width: 35vw;
+  font-size: 1.4vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin-left: -31.85vh;
+  margin-top: 6.5vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  list-style: none;
+}
+.c2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ten1 img {
+  display: inline-block;
+  width: 15.4vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 6vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.ten2 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.ten3 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.ten4 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.ten5 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.ten6 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.top10 p {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  width: 35vw;
+  font-size: 1.37vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin-left: 6vh;
+  margin-top: 5.4vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  list-style: none;
+}
+.c3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top1 img {
+  display: inline-block;
+  width: 12.5vw;
+  height: 22vh;
+  margin-top: 1.5vh;
+  margin-left: 12vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.top2 img {
+  display: inline-block;
+  width: 14.25vw;
+  height: 22vh;
+  margin-top: 1.5vh;
+  margin-left: 2.3vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.top3 img {
+  display: inline-block;
+  width: 14.25vw;
+  height: 22vh;
+  margin-top: 1.5vh;
+  margin-left: 2.5vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.top4 img {
+  display: inline-block;
+  width: 14.25vw;
+  height: 22vh;
+  margin-top: 1.5vh;
+  margin-left: 2.5vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.top5 img {
+  display: inline-block;
+  width: 14.25vw;
+  height: 22vh;
+  margin-top: 1.5vh;
+  margin-left: 2.5vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.top6 img {
+  display: inline-block;
+  width: 14.25vw;
+  height: 22vh;
+  margin-top: 1.5vh;
+  margin-left: 2.5vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.soloNetflix a,
+.soloNetflix a:hover {
+  display: inline-block;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  width: 35vw;
+  font-size: 1.4vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin-left: 2.8vw;
+  margin-top: 5.4vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  list-style: none;
+}
+.c4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: default;
+}
+.sN1 img {
+  display: inline-block;
+  width: 15.4vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 6vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sN2 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sN3 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sN4 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sN5 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.sN6 img {
+  display: inline-block;
+  width: 15vw;
+  height: 17.1vh;
+  margin-top: 1.5vh;
+  margin-left: 0.8vh;
+  cursor: pointer;
+  border-radius: 0.2vw;
+}
+.footerL1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24.2vw;
+  margin-top: 14vh;
+}
+.fL1 img {
+  display: inline-block;
+  width: 1.1vw;
+  height: 2vh;
+  margin-left: 0.8vh;
+  border-radius: 0.2vw;
+}
+.fL2 img {
+  display: inline-block;
+  width: 1vw;
+  height: 2vh;
+  margin-left: 2.9vh;
+  border-radius: 0.2vw;
+}
+.fL3 img {
+  display: inline-block;
+  width: 1.3vw;
+  height: 2.3vh;
+  margin-left: 2.9vh;
+  border-radius: 0.2vw;
+}
+.fL4 img {
+  display: inline-block;
+  width: 1.3vw;
+  height: 2.3vh;
+  margin-left: 2.9vh;
+  border-radius: 0.2vw;
+}
+.linetwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24.2vw;
+  margin-top: 1vh;
+}
+.lad a,
+.lad a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lad {
+  margin-right: 7.5vw;
+}
+.lca a,
+.lca a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lca {
+  margin-right: 7.7vw;
+}
+.ltr a,
+.ltr a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.ltr {
+  margin-right: 7.4vw;
+}
+.lp a,
+.lp a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.linethree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24.2vw;
+  margin-top: 1vh;
+}
+.lri a,
+.lri a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lri {
+  margin-right: 3.75vw;
+}
+.le a,
+.le a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.le {
+  margin-right: 10.35vw;
+}
+.ltu a,
+.ltu a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.ltu {
+  margin-right: 7.8vw;
+}
+.lpr a,
+.lpr a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.linefour {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24.2vw;
+  margin-top: 1vh;
+}
+.lal a,
+.lal a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lal {
+  margin-right: 8.35vw;
+}
+.lpc a,
+.lpc a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lpc {
+  margin-right: 5.5vw;
+}
+.lic a,
+.lic a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.lic {
+  margin-right: 5.7vw;
+}
+.lc a,
+.lc a:visited {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+.codeS {
+  display: flex;
+}
+.codeS button {
+  margin-top: 4vh;
+  margin-left: 24vw;
+  height: 3.2vh;
+  width: 6.6vw;
+  border: 1px solid gray;
+  background-color: transparent;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+}
+.codeS button:hover {
+  margin-top: 4vh;
+  margin-left: 24vw;
+  height: 3.2vh;
+  width: 6.6vw;
+  border: 1px solid gray;
+  background-color: transparent;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+.finalN {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24.2vw;
+  margin-top: 2.18vh;
+}
+.finalN p {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #757575;
+  font-size: 11px;
+  font-weight: 500;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.partTwo {
+  background-color: #141414;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 137.5vh;
+}
