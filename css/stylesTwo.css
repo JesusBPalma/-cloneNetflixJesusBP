@@ -8,7 +8,7 @@ body {
   min-width: auto;
 }
 .partOne {
-  background-image: url("../img/mainBackground.png");
+  background-image: url("img/mainBackground.png");
   background-repeat: no-repeat;
   background-size: 100vw 115vh;
   width: 100%;
